@@ -1,0 +1,47 @@
+div {
+    width: fit-content;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: center;
+    color: #d51717;
+    text-decoration: none;
+}
+header {
+    background-color:rgba(64, 78, 53, 0.7);
+    width: 100%;
+}
+body {
+    background-color: #c3c4c6;
+    text-align: center;
+    align-items: center;
+    font-family: 'Koulen';
+}
+
+nav a:hover {
+    background-color: rgb(67, 114, 52);
+}
+
+.topimage {
+ width: 100%;
+}
+
+.icon {
+    width: 80px;
+}
+.join {
+    background-color: bisque;
+    text-decoration: none;
+}
+
+.siteplan {
+    background-color: bisque;
+    text-decoration: none;
+}
+
+.contact {
+    background-color: bisque;
+    text-decoration: none;
+}
