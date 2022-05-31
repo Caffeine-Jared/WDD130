@@ -1,21 +1,12 @@
 div {
     width: fit-content;
     max-width: 1600px;
+    text-align: center;
     margin: 0 auto;
 }
 
-nav {
-    text-align: center;
-    color: #d51717;
-    text-decoration: none;
-}
-header {
-    background-color:rgba(64, 78, 53, 0.7);
-    width: 100%;
-    margin: 3;
-}
 body {
-    background-color: #718fcb;
+    background-color: #fcfbfb;
     text-align: center;
     align-items: center;
     font-family: 'Koulen';
@@ -23,57 +14,13 @@ body {
     padding: 1;
 }
 
+header {
+    background-color:rgba(20,30,13, .7);
+    width: 100%;
+    margin: 3;
+}
+
+
 nav a:hover {
     background-color: rgb(67, 114, 52);
-}
-
-.topimage {
- width: 100%;
-}
-
-.icon {
-    width: 80px;
-}
-.join {
-    background-color: bisque;
-    text-decoration: none;
-    background-color: white;
-    color: black;
-    border: 2px solid #4CAF50;
-    padding: 5px 10px;
-    margin-bottom: 10px;
-}
-
-.siteplan {
-    background-color: bisque;
-    text-decoration: none;
-    border: 2px solid #4CAF50;
-    padding: 10;
-    margin: 10;
-}
-
-.contact {
-    background-color: bisque;
-    text-decoration: none;
-    border: 2px solid #4CAF50;
-}
-.booknow {
-    background-color: bisque;
-    text-decoration: none;
-    border: 2px solid #4CAF50;
-    padding: 5px 10px;
-    margin-bottom: 10px;
-}
-.home-nav-button {
-    background-color: bisque;
-    text-decoration: none;
-    border: 2px solid #4CAF50;
-    padding: 5px 10px;
-    margin-bottom: px;
-}
-
-.image-body {
-    box-shadow: 10px 10px 5px lightblue;
-    margin: auto;
-    width: 50%;
 }
