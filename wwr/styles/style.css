@@ -1,7 +1,6 @@
 
 body {
     background-color: #F5DFBB;
-    text-align: center;
     align-items: center;
     font-family: 'Koulen';
     margin: 1;
@@ -44,17 +43,9 @@ footer:hover {
     color: #000000;
 }
 
-.button-box {
-    text-align: center;
-}
-
-.home-title {
-    color: #000000; 
-} 
 #content {
     width: fit-content;
     max-width: 1600px;
-    text-align: center;
     margin: 0 auto;
 }
 
@@ -69,11 +60,15 @@ footer:hover {
     width: 100%;
 }
 
-.mountains {
-    text-align: left;
+.button-box {
+    text-align: center;
 }
 
-.river-card {
+.home-title {
+    color: #000000; 
+} 
+
+.rivers-card {
     text-align: center;
 }
 
@@ -89,8 +84,6 @@ footer:hover {
     height: 725px;
     background-color: #0E9594;
 }
-
-
 
 .book {
     background-color: #F2542D;
@@ -112,6 +105,10 @@ footer:hover {
     color: #127475;
 }
 
+.mountains {
+    text-align: left;
+}
+
 .msg h2 {
     color: #000000;
 }
@@ -123,6 +120,7 @@ footer:hover {
 
 .msg {
     background-color: #127475;
+    text-align: center;
 }
 
 .logo {
