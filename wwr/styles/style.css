@@ -1,9 +1,3 @@
-#content {
-    width: fit-content;
-    max-width: 1600px;
-    text-align: center;
-    margin: 0 auto;
-}
 
 body {
     background-color: #F5DFBB;
@@ -21,9 +15,7 @@ header {
     text-align: left;
 }
 
-.home-title {
-    color: #000000; 
-}
+
 nav a:hover {
     background-color: #F2542D;
     color: #127475;
@@ -34,60 +26,9 @@ nav a {
     color: #fcfbfb;
     text-decoration: none;
 }
-
-.button-box {
-    text-align: center;
-}
-
-#hero-msg h1{
-    text-align: center;
-}
-
-#hero-msg h4 {
-    text-align: center;
-}
-
-main section {
-    text-align: center;
-}
-
-.background {
-    height: 725px;
-    background-color: #0E9594;
-}
-
 h4 {
-    color: #d9c2a3;
-}
-
-.book {
-    background-color: #d9c2a3;
-    text-decoration: none;
-    color: black;
-}
-
-.join {
-    color: #000000;
-    text-decoration: none;
-    background-color: #F2542D;
-}
-
-.book:hover {
-    color: #d9c2a3;
-}
-
-.join:hover {
-    color: #127475;
-}
-
-.msg h2 {
     color: #000000;
 }
-
-.msg p {
-    color: #000000;
-}
-
 footer h3 {
     color: #000000;
     text-align: left;
@@ -103,6 +44,87 @@ footer:hover {
     color: #000000;
 }
 
+.button-box {
+    text-align: center;
+}
+
+.home-title {
+    color: #000000; 
+} 
+#content {
+    width: fit-content;
+    max-width: 1600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#hero-msg h1{
+    text-align: center;
+}
+
+#hero-msg h4 {
+    text-align: center;
+}
+#hero-img {
+    width: 100%;
+}
+
+.mountains {
+    text-align: left;
+}
+
+.river-card {
+    text-align: center;
+}
+
+.camping-card {
+    text-align: center;
+}
+
+.rapids-card {
+    text-align: center;
+}
+
+.background {
+    height: 725px;
+    background-color: #0E9594;
+}
+
+
+
+.book {
+    background-color: #F2542D;
+    text-decoration: none;
+    color: black;
+}
+
+.join {
+    color: #000000;
+    text-decoration: none;
+    background-color: #F2542D;
+}
+
+.book:hover {
+    color: #0E9594;
+}
+
+.join:hover {
+    color: #127475;
+}
+
+.msg h2 {
+    color: #000000;
+}
+
+.msg p {
+    color: #000000;
+    
+}
+
+.msg {
+    background-color: #127475;
+}
+
 .logo {
     width: 80px;
 }
@@ -111,10 +133,7 @@ footer:hover {
     width: 80px;
 }
 
-#hero-img {
-    width: 100%;
-}
-
 .social {
     text-align: left;
 }
+
