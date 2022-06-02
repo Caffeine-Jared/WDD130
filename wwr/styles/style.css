@@ -48,7 +48,7 @@ footer h3 {
 }
 
 footer a {
-    color: #000000;
+    color: #fcfbfb;
     text-decoration: none;
     
 }
@@ -58,8 +58,7 @@ footer:hover {
 }
 
 footer {
-    padding: 25px 50px;
-    padding-top: 15px;
+    margin-top: 200px;
 }
 
 h2 {
@@ -87,9 +86,6 @@ h2 {
     padding-top: 5px;
 }
 
-.card-img {
-    padding-top: 20px;
-}
 .button-box {
     text-align: center;
 }
@@ -102,14 +98,17 @@ h2 {
 
 .rivers-card {
     text-align: center;
+    padding-bottom: 150px;
 }
 
 .camping-card {
     text-align: center;
+    padding-bottom: 150px;
 }
 
 .rapids-card {
     text-align: center;
+    padding-bottom: 150px;
 }
 
 .background {
@@ -151,6 +150,8 @@ h2 {
 
 .mountains {
     text-align: left;
+    padding-top: 100px;
+    padding-bottom: 200px;
 }
 
 .msg h2 {
@@ -169,6 +170,14 @@ h2 {
     text-align: center;
     line-height: 1.5em;
     padding: 35px;
+    height: 150px;
+ 
+    
+}
+
+.footing {
+    background-color: #127475;
+    padding-left: 50px; 
 }
 
 .logo {
@@ -182,6 +191,12 @@ h2 {
 
 .social {
     text-align: left;
-    padding-top: 15px;
 }
 
+.card-img {
+    border: 10px solid #127475;
+}
+
+main section img {
+    box-sizing: border-box;
+}
