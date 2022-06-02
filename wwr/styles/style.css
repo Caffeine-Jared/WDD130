@@ -219,7 +219,6 @@ h2 {
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: ;
 }
 main section img {
     box-sizing: border-box;
