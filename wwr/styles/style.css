@@ -59,7 +59,12 @@ footer:hover {
 }
 
 footer {
+    background-color: #127475;
+    padding: 25px 50px;
     margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 h2 {
@@ -190,13 +195,6 @@ h2 {
     line-height: 1.5em;
     padding: 35px;
     height: 150px;
- 
-    
-}
-
-.footing {
-    background-color: #127475;
-    padding-left: 50px; 
 }
 
 .logo {
@@ -218,6 +216,12 @@ h2 {
     border: 10px solid #127475;
 }
 
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: ;
+}
 main section img {
     box-sizing: border-box;
 }
+
