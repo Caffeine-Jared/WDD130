@@ -2,28 +2,42 @@
 body {
     background-color: #F5DFBB;
     align-items: center;
-    font-family: 'Koulen';
-    margin: 1;
-    padding: 1;
+    font-family: 'Koulen',sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color:#562c2c;
     width: 100%;
+    height: 145px;
     margin: 3;
     text-align: left;
+    margin-top: 0px;
 }
 
 
 nav a:hover {
     background-color: #F2542D;
     color: #127475;
+    border-radius: 5px;
 }
 
 nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 5px 20px;
+    padding-top: 10px;
+    padding-bottom: 20;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    
+}
+
+nav {
+    margin-bottom: 10px;
 }
 h4 {
     color: #000000;
@@ -43,6 +57,15 @@ footer:hover {
     color: #000000;
 }
 
+footer {
+    padding: 25px 50px;
+    padding-top: 15px;
+}
+
+h2 {
+    margin: 0;
+}
+
 #content {
     width: fit-content;
     max-width: 1600px;
@@ -60,12 +83,21 @@ footer:hover {
     width: 100%;
 }
 
+#logo-link {
+    padding-top: 5px;
+}
+
+.card-img {
+    padding-top: 20px;
+}
 .button-box {
     text-align: center;
 }
 
 .home-title {
     color: #000000; 
+    font-size: 3em;
+    font-family: 'Permanent Marker';
 } 
 
 .rivers-card {
@@ -89,12 +121,24 @@ footer:hover {
     background-color: #F2542D;
     text-decoration: none;
     color: black;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-bottom: 5    0px;
+    border-radius: 5px;
+}
+
+.button-box {
+    margin-bottom: 100px;
 }
 
 .join {
     color: #000000;
     text-decoration: none;
     background-color: #F2542D;
+    font-size: 18px;
+    padding: 5px 20px;
+    margin-bottom: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -115,12 +159,16 @@ footer:hover {
 
 .msg p {
     color: #000000;
+    font-size: .8em;
+    padding-bottom: 15px;
     
 }
 
 .msg {
     background-color: #127475;
     text-align: center;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .logo {
@@ -129,9 +177,11 @@ footer:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .social {
     text-align: left;
+    padding-top: 15px;
 }
 
