@@ -88,7 +88,7 @@
       <!-- Think about how you want your navigation bar to look. In the site-plan.css file change the colors to your colors to get the look you desire. --> 
       <nav>
         <a href="#">Home</a>
-        <a href="#">Personal Projects</a>
+        <a href="#">Personal Projects/Cloud Learning</a>
         <a href="#">Photography</a>
       </nav>
       <hr>
@@ -100,7 +100,7 @@
           Home
         </div>
         <div class="sm-page2">
-          Personal Projects <!-- change this -->
+          Personal Projects/Cloud Learning <!-- change this -->
         </div>
         <div class="sm-page3">
           Photography  <!-- change this -->
@@ -128,7 +128,7 @@
         <img src="images/beach-path.JPG" alt="image for homepage">
 
       </ul>
-      <h3>Personal Projects</h3>
+      <h3>Personal Projects/Cloud Learning</h3>
       <p>Images for the Personal Projects</p>
         <img src="images/birds.JPG" alt="image for page">
 
@@ -151,10 +151,90 @@
       </p>
       <img src="images/home-page.jpg" alt="home page wireframe">
 
-      <h3>Personal Projects</h3>
+      <h3>Personal Projects/Cloud Learning</h3>
       <p>         
         There are two pages, one for navigating across projects, and the other for viewing the article or write up detailing the project. 
       </p>
+      <div class="content-personal">
+      <p>
+        Content will include:
+      </p>
+      <h3>Cloud Certifications - Starting Guide</h3> 
+      <h4>Intro - </h4>
+      <p>When it comes to learning all things about the cloud, don't take a linear approach to learning. You probably have a decent understanding of certain topics from classes or personal study, feel free to skip around and focus on the topics you still need to learn. A great way to gauge current understanding is by jumping into practice exams. Even if you're completely new, taking a practice exam will introduce you to keywords, topics, and allow you to familiarize yourself with the exam. 
+        <br>
+        <br>
+        For example, if you want to take the AWS Cloud Practitioner exam, take the official practice test or one from TutorialsDojo.
+      </p>
+      <h4>Beginner Certifications:</h4> 
+    <dl>
+        <dt>Cloud Practitioner/Azure Fundamentals</dt>
+          <dd>- I’d start with one of these. AWS preferably, since it’s pretty much the industry standard.</dd>
+          <dd>- https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf</dd>
+          <dd>- https://tutorialsdojo.com/aws-certified-cloud-practitioner/</dd>
+          <dd>- Don’t be overwhelmed by the sheer number of services, all you need to do is go through the AWS docs and pretty much read the first page of each service mentioned in the exam guide - ex. In AWS S3 Docs, just that first page gives you enough background for the test</dd>
+    </dl>
+    <h4>Associate Certifications:</h4>
+    <dl>
+      <dt> AWS/OCI/Azure/Google </dt>
+        <dd>- Each associate-level has different focuses, each flavor of cloud has its own specialty, from microservice architecture (Google cloud) to databases (OCI). Getting multiple associate-level certs from different cloud providers is a great resume builder, and gives you a great understanding of multi-cloud architectures. </dd>
+        <dd>- 28 - 75 hours of study required</dd>
+        <dd>- 1-2 weeks is possible, but that’s only if you really dedicate yourself, not worth it.</dd>
+        <dd>- There are many different associate-level exams offered by different cloud providers, which means you can tailor your own expertise or career path (no other field does this quite like tech)</dd>
+        <dd>- Aim for a certificate a semester - that way when you hit the job/intern market you already have more experience than 90% of the students in BYU-I</dd>
+      </dl>
+   <h4>Professional Certifications:</h4>
+   <ul>
+    <li>Professional-level certifications once you find a cloud provider that you are comfortable/confident in</li>
+    <li>Requires a in-depth understanding of the entire cloud service library (especially when it comes to AWS)</li>   
+  </ul>
+  <h4>Resources to use:</h4>
+  <ul>
+    <li>TutorialsDojo - for practice exams</li>
+      <li class="indent">The rule of thumb is typically aim for 90% on each practice test you take before the actual exam</li>
+    <li>ACloudGuru - great courses for each cloud provider, but not really in-depth</li>
+      <li class="indent">Will get you to pass the test, but not have a good understanding of hands-on</li>
+    <li>Learn.cantrill.io - never really used this guy’s stuff, but from what I understand, it’s lab-based, and more hands-on</li>
+  </ul>
+     
+    
+    
+    
+    
+    Reddit
+    r/AWScertifications
+    r/AWS
+    r/AZURE
+    r/googlecloud
+    r/homelab
+    For practical experience, great to start learning networking/linux/security/SysOps through hands-on learning - Homelab is where I got my start with buying and playing with enterprise equipment 
+    r/unixporn
+    r/sysadmin
+    r/networking
+    Browse religiously 
+
+    Tips:
+    IMPORTANT: When you make cloud accounts - SECURE THE HECK out of them. MFA, super long passwords, separate your root account and the account you do labs on, place billing alerts, etc. People WILL try to break into your account and use your account to mine crypto or use resources on your tab. 
+    In fact, if you’re not using a password manager like Bitwarden, and MFA security keys like Yubikey, you gotta learn that stuff first. 
+    Video on password managers (specifically KeepassXC) by Cyberspatial
+    Video explaining Bitwarden (my preferred password manager)
+    Accounts get hacked all the time
+    Take lots of notes - notes on notes even
+    For me personally, I prefer using Obsidian since you can link notes and create a “second brain” of sorts and allows me to go back to old notes and link them to my current understanding
+    Practice exams are cheap, real tests are not - even if you pay 20$ for each practice exam, it’s worth it
+    OCI is giving away free training and certifications right now - but the OCI platform is really new, and kinda crappy
+    Play around with cloud as much as possible - and use the free credits they give you as much as you can
+    Build websites, repositories, store images/videos in their storage tiers, etc
+    The more you familiarize yourself with the platforms the easier it is to take the exam
+    Get used to Linux - if you need a VMware key, the school provides one
+    I’d start with either Ubuntu, or Fedora. 
+    Getting used to Fedora can eventually lead to you getting the RHCSA, which is the mother of all Linux certs. 
+    You can optionally just skip straight to RHEL, which is an enterprise linux used in cloud, and on-prem. But you have to register with Red Hat to get a free developer key. 
+    Don’t be afraid to break your machines, that’s half the fun in learning Linux
+    Once you pass an exam, they give you 50% off the next one - making it really affordable (at least since the last time I took AWS exams)
+<br>
+    Overall, all this might seem overwhelming at first. But get started by doing small things at first and gaining background knowledge. It’s important to remember Gall’s Law: “A complex system that works is invariably found to have evolved from a simple system that worked.” Learning about cloud architecture and systems starts with the simple stuff, and you build on more and more complexity the more experience you get.
+    </div>
       <img src="images/personal-projects.jpg" alt="page 2 wireframe">
       <img src="images/personal-projects2.jpg" alt="page 2 wireframe">
       <h3>Photography</h3>

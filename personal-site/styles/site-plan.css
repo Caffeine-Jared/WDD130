@@ -177,3 +177,10 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+.content-personal {
+  text-align: left;
+}
+
+.indent {
+  text-indent: 20px;
+}
