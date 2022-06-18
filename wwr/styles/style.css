@@ -302,7 +302,7 @@ main section img {
     margin-bottom: 20px;
     grid-row: 3;
     grid-column: 2;
-    border: #000000;
+    border: 10px #000000;
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgb(83, 83, 83);
     margin: 10px 20px 10px;
@@ -313,14 +313,22 @@ main section img {
     width: 300px;
     height: 300px;
     align-items: center;
-    border: #000000;
+    border: 10px solid #ececec;
     border-radius: 20px;
-
-    
+    transition: transform .6s;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
+.encounters-bear:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+    
 .rates {
     background-color: #61E8E1;
     border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(255, 255, 255);
 }
 .title-rates {
     color: #ffffff;
@@ -331,6 +339,9 @@ main section img {
     color: #ffffff;
     text-align: center;
     margin: 10px 20px 10px 20px;
+}
+.bears {
+    margin-left: 100px;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
