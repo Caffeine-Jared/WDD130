@@ -341,7 +341,7 @@ main section img {
     margin: 10px 20px 10px 20px;
 }
 .bears {
-    margin-left: 100px;
+    text-align: center;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
