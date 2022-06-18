@@ -50,6 +50,7 @@ h4 {
     text-align: center;
 
 }
+
 footer h3 {
     color: #000000;
     text-align: left;
@@ -316,6 +317,20 @@ main section img {
     border-radius: 20px;
 
     
+}
+.rates {
+    background-color: #61E8E1;
+    border-radius: 20px;
+}
+.title-rates {
+    color: #ffffff;
+    font-family: 'Permanent Marker';
+    text-align: center;
+}
+.rate-content {
+    color: #ffffff;
+    text-align: center;
+    margin: 10px 20px 10px 20px;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
