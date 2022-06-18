@@ -342,6 +342,7 @@ main section img {
 }
 .bears {
     text-align: center;
+    /*commenting to see if it updates github*/
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
