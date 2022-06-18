@@ -267,21 +267,12 @@ main section img {
     width: 100%;
     object-fit: contain;
 }
-.blog-content {
-    display: grid;
-    grid-template-rows: 250px 400px 900px;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    justify-items: stretch;
-    align-items: stretch;
-}
+
 .summer-booking {
     font-size: 18px;
     padding: 10px 100px 10px;
     background-color: #0E9594;
-    margin-bottom: 20px;
-    grid-row: 1;
-    grid-column: 2;
+    margin-bottom: 50px;
     border: #000000;
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgb(83, 83, 83);
@@ -292,13 +283,14 @@ main section img {
     font-size: 18px;
     padding: 10px 50px 10px;
     background-color: #0E9594;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     grid-row: 2;
     grid-column: 2;
     border: #000000;
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgb(83, 83, 83);
     margin: 10px 20px 10px;
+
 
 }
 
@@ -309,11 +301,11 @@ main section img {
     margin-bottom: 20px;
     grid-row: 3;
     grid-column: 2;
-    width: 100%;
     border: #000000;
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgb(83, 83, 83);
     margin: 10px 20px 10px;
+
 }
 
 .encounters-bear {
@@ -322,6 +314,7 @@ main section img {
     align-items: center;
     border: #000000;
     border-radius: 20px;
+
     
 }
 @media screen and (max-width: 900px) {
