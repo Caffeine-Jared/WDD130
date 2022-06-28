@@ -5,7 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Home Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/styles/personal-style.css">
+        <link rel="stylesheet" href="styles/personal-style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chonburi&family=IBM+Plex+Sans:wght@300&family=Koulen&family=Libre+Barcode+39+Text&family=Nunito+Sans&family=Nuosu+SIL&family=Permanent+Marker&family=Rock+Salt&family=Sedgwick+Ave+Display&family=Special+Elite&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="personal-content">
@@ -13,22 +16,22 @@
                 <nav>
                     <a id="logo_link" href="index.html">
                         <img class="logo" src="images/JL-logos_black.png" alt="JL logo" style="width: 100px;">
-                    <a href="index.html">Home</a>
-                   <a href="personal-projects.html">Personal Projects</a> 
-                   <a href="photography.html">Photography</a>
+                    <a href="index.html" class="nav-head">Home</a>
+                   <a href="personal-projects.html" class="nav-head">Personal Projects</a> 
+                   <a href="photography.html" class="nav-head">Photography</a>
                 </nav>
             </header>
             <main class="main-content">
+                <h3>About Me</h3>
                 <div class="about-me">
-                    <h3>About Me</h3>
-                    <ul>
+                    <ul class="about-list">
                         <li>Student</li>
                         <li>CS Major</li>
                         <li>Cloud Architect</li>
                         <li>Beginner Web Dev</li>
                     </ul>
                 </div>
-                <div class="personal-content">
+                <div class="personal-project-content">
                     <h3>Personal Projects</h3>
                         <section class="personal-project">
                             <h5>Getting Started with AWS</h5>
@@ -55,14 +58,22 @@
                             <img src="images/Tux.png" alt="linux" style="width: 200px;">
                     </section>  
                 </div>
+
+            <h3>Photography</h3>
                 <div class="photography">
-                    <h3>Photography</h3>
-                    <img src="images/lighthouse.JPG" alt="lighthouse" style="width: 500px;">
-                        <h5>The Lighthouse</h5>
-                    <img src="images/Beach.JPG" alt="beach" style="width: 500px;">
-                        <h5>Sandy Hook, NJ</h5>
-                    <img src="images/NYC.jpeg" alt="NYC" style="width: 500px;">
-                        <h5>NYC Skyline</h5>
+                    <section class="lighthouse-home">
+                        <img src="images/lighthouse.JPG" alt="lighthouse" style="width: 300px;">
+                            <h5>The Lighthouse</h5>
+                    </section>
+                    <section class="sandy-home">
+                        <img src="images/Beach.JPG" alt="beach" style="width: 300px; justify-content: left;">
+                            <h5>Sandy Hook, NJ</h5>
+                    </section>
+                    <section class="skyline-home">
+                        <img src="images/NYC.jpeg" alt="NYC" style="width: 300px;">
+                          <h5>NYC Skyline</h5>
+                    </section>
+
                 </div>
             </main>
             <footer>
