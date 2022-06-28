@@ -1,49 +1,102 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 @import url('https://fonts.googleapis.com/css2?family=Chonburi&family=IBM+Plex+Sans:wght@300&family=Koulen&family=Libre+Barcode+39+Text&family=Nunito+Sans&family=Nuosu+SIL&family=Permanent+Marker&family=Rock+Salt&family=Sedgwick+Ave+Display&family=Special+Elite&display=swap');
 
+/* Nav Bar */
 header {
-    background-color: ;
-    width: 100%;
-    height: 100px;
     text-align: left;
     display: grid;
-    grid-template-columns: 150px auto;
-    background-image: linear-gradient(#42BFDD, #F0F6F6);
-    z-index: 0;
+    grid-template-columns: auto repeat(4, 150px) auto;
+    grid-template-rows: 10px 50px 10px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #000000;
+    border-radius: 50px 50px;
+    margin-top: 10px;
 }
 
-nav {
-    padding-top: 25px;
-    padding-bottom: 30px;
-    z-index: 1;
+.nav-head-home {
+    text-decoration: none;
+    color: white;
+}
+.nav-head-projects{
+    text-decoration: none;
+    color: white;
+}
+.nav-head-photography {
+    text-decoration: none;
+    color: white;
+}
+.nav-head-home:hover {
+    text-decoration-color: white;
+    text-decoration: underline;
+    color: white;
+}
+.nav-head-projects:hover {
+    text-decoration-color: white;
+    text-decoration: underline;
+    color: white;
+}
+.nav-head-photography:hover {
+    text-decoration-color: white;
+    text-decoration: underline;
+    color: white;
+}
+.div1 { 
     display: flex;
-    justify-content: space-around;
+    grid-area: 2 / 1 / 3 / 2; 
+    justify-content: left;
+    margin-left: 50px;
 }
-
-nav a {
+.div2 { 
+    grid-area: 2 / 2 / 3 / 3; 
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
     font-family: "Sedgwick Ave Display";
     font-size: 20px;
-    padding: 10px;
-    border-radius: 5px;
-    z-index: 0;
 }
-nav a:hover {
-    background-color: #FF66B3;
-    border-radius: 5px;
-    z-index: 0;
+.div3 { 
+    grid-area: 2 / 3 / 3 / 4; 
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    font-family: "Sedgwick Ave Display";
+    font-size: 20px;
 }
+.div4 { 
+    grid-area: 2 / 4 / 3 / 5; 
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    font-family: "Sedgwick Ave Display";
+    font-size: 20px;    
+}
+
 footer {
-    background-color: #42BFDD;
+    text-align: left;
+    display: grid;
+    grid-template-columns: auto repeat(4, 150px) auto;
+    grid-template-rows: 10px 50px 10px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #000000;
+    border-radius: 50px 50px;
+    margin-bottom: 10px;
 }
 body {
     font-family: "Nunito", Helvetica, sans-serif;
+}
+h1 {
+    font-family: "Sedgwick Ave Display";
+    justify-content: center;
 }
 h3 {
     font-family: "Sedgwick Ave Display";
     justify-content: center;
 }
-#logo-link {
-    margin-right: 100px;
+h2 {
+    font-family: "Sedgwick Ave Display";
+    justify-content: center;
 }
 body {
     background-color: #F0F6F6;
@@ -54,7 +107,7 @@ body {
 }
 
 .about-me {
-    background-color: #BBE6E4;
+    background-color: #F4EDEA;
    
 }
 
@@ -63,7 +116,7 @@ body {
 }
 
 .personal-project {
-    background-color: #BBE6E4;
+    background-color: #F4EDEA;
 }
 
 .personal-project img {
@@ -71,15 +124,51 @@ body {
 }
 
 .EC2 {
-    background-color: #BBE6E4;
+    background-color: #F4EDEA;
 }
 
 .linux {
-    background-color: #BBE6E4;
+    background-color: #F4EDEA;
     margin-bottom: 50px;
 }
 
 .photography {
-    background-color: #BBE6E4;
+    background-color: #F4EDEA;
+    border: 3px solid#000000;
+    border-radius: 10px 10px ;
+    display: grid;
+    grid-template-columns: auto 500px 10px 500px 10px 500px auto;
+    grid-template-rows: 20px 325px 5px 50px 30px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-bottom: 70px;
 
+}
+.lighthouse-home {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.sandy-home {
+    grid-area: 2 / 4 / 3 / 5;
+}
+
+.skyline-home {
+    grid-area: 2 / 6 / 3 / 7;
+}
+
+.lighthouse-title {
+    grid-area: 4 / 2 / 5 / 3;
+    text-align: center;
+}
+.sandy-title {
+    grid-area: 4 / 4 / 5 / 5;
+    text-align: center;
+}
+.nyc-title {
+    grid-area: 4 / 6 / 5 / 7;
+    text-align: center;
+}
+.footer-copyright {
+    color: white;
+    margin-left: 20px;
 }
