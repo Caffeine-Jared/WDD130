@@ -71,7 +71,7 @@ header {
     font-family: "Sedgwick Ave Display";
     font-size: 20px;    
 }
-
+/* Nav Bar */
 footer {
     text-align: left;
     display: grid;
@@ -114,61 +114,212 @@ body {
 .about-list {
     grid-row: inherit;
 }
-
+/* first article personal project */
 .personal-project {
     background-color: #F4EDEA;
+    display: grid;
+    grid-template-columns: 20px 1fr 20px repeat(2, 1fr) 20px;
+    grid-template-rows: 20px 50px 20px 1fr 20px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: 3px solid#000000;
+    box-shadow: 10px 10px black;
+    border-radius: 10px 10px ;
+    margin-bottom: 30px;
+
 }
 
-.personal-project img {
-
+.personal-pro-image {
+    grid-area: 2 / 2 / 5 / 3; 
+    padding-left: 125px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}   
+.personal-pro-content {
+    grid-area: 4 / 4 / 5 / 6; 
 }
 
+.personal-pro-title {
+    grid-area: 2 / 4 / 3 / 6; 
+    text-align: center;
+}
+/* END first article personal project */
+
+/* START EC2 */
 .EC2 {
     background-color: #F4EDEA;
+    display: grid;
+    grid-template-columns: 20px 1fr 20px repeat(2, 1fr) 20px;
+    grid-template-rows: 20px 50px 20px 1fr 20px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: 3px solid#000000;
+    box-shadow: 10px 10px black;
+    border-radius: 10px 10px ;
+    margin-bottom: 30px;
 }
 
+.ec2-image {
+    grid-area: 2 / 2 / 5 / 3; 
+    padding-left: 125px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.ec2-content {
+    grid-area: 4 / 4 / 5 / 6; 
+}
+.ec2-title {
+    grid-area: 2 / 4 / 3 / 6; 
+    text-align: center;
+}
+/* END EC2 */
+
+/* START Linux */
 .linux {
     background-color: #F4EDEA;
+    background-color: #F4EDEA;
+    display: grid;
+    grid-template-columns: 20px 1fr 20px repeat(2, 1fr) 20px;
+    grid-template-rows: 20px 50px 20px 1fr 20px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: 3px solid#000000;
+    box-shadow: 10px 10px black;
+    border-radius: 10px 10px ;
     margin-bottom: 50px;
 }
+.linux-title {
+    grid-area: 2 / 4 / 3 / 6; 
+    text-align: center;
+}
 
+.linux-image {
+    grid-area: 2 / 2 / 5 / 3; 
+    padding-left: 125px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.linux-content {
+    grid-area: 4 / 4 / 5 / 6; 
+}
+/* END Linux */
+
+/* Start-Photography */
 .photography {
     background-color: #F4EDEA;
     border: 3px solid#000000;
+    box-shadow: 10px 10px black;
     border-radius: 10px 10px ;
     display: grid;
-    grid-template-columns: auto 500px 10px 500px 10px 500px auto;
-    grid-template-rows: 20px 325px 5px 50px 30px;
+    grid-template-columns: auto 500px 20px 500px 20px 500px auto;
+    grid-template-rows: 30px 325px 5px 50px 30px;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     margin-bottom: 70px;
 
+
 }
+
 .lighthouse-home {
     grid-area: 2 / 2 / 3 / 3;
+    transition: transform .5s;
+    
 }
 
 .sandy-home {
     grid-area: 2 / 4 / 3 / 5;
+    transition: transform .5s;
 }
 
 .skyline-home {
     grid-area: 2 / 6 / 3 / 7;
+    transition: transform .5s;
+}
+
+.lighthouse-home:hover {
+    grid-area: 2 / 2 / 3 / 3;
+    transform: scale(1.1);
+    
+}
+
+.sandy-home:hover {
+    grid-area: 2 / 4 / 3 / 5;
+    transform: scale(1.1);
+}
+
+.skyline-home:hover {
+    grid-area: 2 / 6 / 3 / 7;
+    transform: scale(1.1);
 }
 
 .lighthouse-title {
     grid-area: 4 / 2 / 5 / 3;
     text-align: center;
+    transition: text-shadow .45s;
+}
+.lighthouse-title:hover {
+    grid-area: 4 / 2 / 5 / 3;
+    text-shadow: 2px 2px #06BCC1;
+    text-align: center;
+
 }
 .sandy-title {
     grid-area: 4 / 4 / 5 / 5;
+    text-align: center;
+    transition: text-shadow .45s;
+}
+.sandy-title:hover {
+    grid-area: 4 / 4 / 5 / 5;
+    text-shadow: 2px 2px #06BCC1;
     text-align: center;
 }
 .nyc-title {
     grid-area: 4 / 6 / 5 / 7;
     text-align: center;
+    transition: text-shadow .45s;
 }
+.nyc-title:hover {
+    grid-area: 4 / 6 / 5 / 7;
+    text-shadow: 2px 2px #06BCC1;
+    text-align: center;
+}
+/* End-Photography */
+
+/* Start Footer */
+footer {
+    display: grid;
+    grid-template-columns: 20px auto 300px repeat(4, 150px) auto;
+    grid-template-rows: 10px 50px 10px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
 .footer-copyright {
     color: white;
-    margin-left: 20px;
+    grid-area: 2 / 2 / 3 / 4;
+    text-align: center;
+    padding-bottom: 30px;
 }
+
+.navigation {
+    grid-area: 2 / 4 / 3 / 8;   
+}
+
+.navigation a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Sedgwick Ave Display";
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+    color: white;
+  }
