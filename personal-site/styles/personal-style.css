@@ -1,6 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 @import url('https://fonts.googleapis.com/css2?family=Chonburi&family=IBM+Plex+Sans:wght@300&family=Koulen&family=Libre+Barcode+39+Text&family=Nunito+Sans&family=Nuosu+SIL&family=Permanent+Marker&family=Rock+Salt&family=Sedgwick+Ave+Display&family=Special+Elite&display=swap');
 
+/* general settings */
+h1 {
+    font-family: "Sedgwick Ave Display";
+    text-align: center;
+}
+h3 {
+    font-family: "Sedgwick Ave Display";
+    justify-content: center;
+}
+h2 {
+    font-family: "Sedgwick Ave Display";
+    justify-content: center;
+}
+body {
+    background-color: #F0F6F6;
+    max-width: 1600px;
+    display: grid;
+    align-items: center;
+    margin: 0 auto;
+    font-family: "Nunito", Helvetica, sans-serif;
+}
+/* END GENERAL SETTINGS */
+
 /* Nav Bar */
 header {
     text-align: left;
@@ -72,49 +95,114 @@ header {
     font-size: 20px;    
 }
 /* Nav Bar */
-footer {
-    text-align: left;
-    display: grid;
-    grid-template-columns: auto repeat(4, 150px) auto;
-    grid-template-rows: 10px 50px 10px;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    background-color: #000000;
-    border-radius: 50px 50px;
-    margin-bottom: 10px;
-}
-body {
-    font-family: "Nunito", Helvetica, sans-serif;
-}
-h1 {
-    font-family: "Sedgwick Ave Display";
-    justify-content: center;
-}
-h3 {
-    font-family: "Sedgwick Ave Display";
-    justify-content: center;
-}
-h2 {
-    font-family: "Sedgwick Ave Display";
-    justify-content: center;
-}
-body {
-    background-color: #F0F6F6;
-    max-width: 1600px;
-    display: grid;
-    align-items: center;
-    margin: 0 auto;
-}
 
+/* START About */
 .about-me {
     background-color: #F4EDEA;
-   
+    border: 3px solid#000000;
+    box-shadow: 10px 10px black;
+    border-radius: 10px 10px ;
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: 20px 300px 50px repeat(3, auto) 20px;
+    grid-template-rows: 20px 1fr 10px 1fr 10px 1fr 10px 1fr 20px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
 
-.about-list {
-    grid-row: inherit;
+.about1 {
+    grid-area: 2 / 2 / 3 / 3; 
+    text-align: center;
+    background-color: white;
+    border: 3px solid#000000;
+    box-shadow: 10px 10px black;
+    border-radius: 10px 10px ;
+    padding-top: 60px;
+    transition: transform .5s;
 }
+.about2 {
+    grid-area: 4 / 2 / 5 / 3;
+    text-align: center;
+    background-color: white;
+    border: 3px solid#000000;
+    box-shadow: 10px 10px black;
+    border-radius: 10px 10px ;
+    padding-top: 60px;
+    transition: transform .5s;
+}
+.about3 {
+    grid-area: 6 / 2 / 7 / 3;
+    text-align: center;
+    background-color: white;
+    border: 3px solid#000000;
+    box-shadow: 10px 10px black;
+    border-radius: 10px 10px ;
+    padding-top: 60px;
+    transition: transform .5s;
+}
+.about4{
+    grid-area: 8 / 2 / 9 / 3;
+    text-align: center;
+    background-color: white;
+    border: 3px solid#000000;
+    box-shadow: 10px 10px black;
+    border-radius: 10px 10px ;
+    padding-top: 60px;
+    transition: transform .5s;
+}
+.about1:hover {
+    grid-area: 2 / 2 / 3 / 3; 
+    text-align: center;
+    background-color: white;
+    border: 3px solid#000000;
+    box-shadow: 10px 10px black;
+    border-radius: 10px 10px ;
+    padding-top: 60px;
+    transform: scale(1.1);
+}
+.about2:hover {
+    grid-area: 4 / 2 / 5 / 3;
+    text-align: center;
+    background-color: white;
+    border: 3px solid#000000;
+    box-shadow: 10px 10px black;
+    border-radius: 10px 10px ;
+    padding-top: 60px;
+    transform: scale(1.1);
+}
+.about3:hover {
+    grid-area: 6 / 2 / 7 / 3;
+    text-align: center;
+    background-color: white;
+    border: 3px solid#000000;
+    box-shadow: 10px 10px black;
+    border-radius: 10px 10px ;
+    padding-top: 60px;
+    transform: scale(1.1);
+}
+.about4:hover {
+    grid-area: 8 / 2 / 9 / 3;
+    text-align: center;
+    background-color: white;
+    border: 3px solid#000000;
+    box-shadow: 10px 10px black;
+    border-radius: 10px 10px ;
+    padding-top: 60px;
+    transform: scale(1.1);
+}
+.about-content {
+    grid-area: 2 / 4 / 9 / 7;
+    width: 100%;
+    border: 3px solid#000000;
+    border-radius: 10px 10px ;
+}
+
+/* END About */
+
 /* first article personal project */
+.personal-title1 {
+    margin-top: 60px;
+}
 .personal-project {
     background-color: #F4EDEA;
     display: grid;
@@ -219,7 +307,7 @@ body {
     grid-template-rows: 30px 325px 5px 50px 30px;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 
 
 }
@@ -227,17 +315,23 @@ body {
 .lighthouse-home {
     grid-area: 2 / 2 / 3 / 3;
     transition: transform .5s;
+    border: 3px solid#000000;
+    border-radius: 10px 10px ;
     
 }
 
 .sandy-home {
     grid-area: 2 / 4 / 3 / 5;
     transition: transform .5s;
+    border: 3px solid#000000;
+    border-radius: 10px 10px ;
 }
 
 .skyline-home {
     grid-area: 2 / 6 / 3 / 7;
     transition: transform .5s;
+    border: 3px solid#000000;
+    border-radius: 10px 10px ;
 }
 
 .lighthouse-home:hover {
@@ -296,6 +390,10 @@ footer {
     grid-template-rows: 10px 50px 10px;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    text-align: left;
+    background-color: #000000;
+    border-radius: 50px 50px;
+    margin-bottom: 10px;
 }
 
 .footer-copyright {
@@ -323,3 +421,69 @@ footer {
     text-decoration: underline;
     color: white;
   }
+/* END Footer */
+
+/* D I S C O */
+.disco {
+    display: grid;
+    grid-template-columns: 20px 400px 20px;
+    grid-template-rows: 20px 200px 20px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: white;
+    border: 3px solid#000000;
+    box-shadow: 10px 10px black;
+    border-radius: 10px 10px ;
+    margin-bottom: 60px;
+  }
+
+  .disco span {
+    width: 100%;
+    height: 100%;
+    background: #efefef;
+    position: absolute;
+    z-index: -1;
+    transition: all 0.5s ease;
+  }
+
+  .disco div {
+    position: relative;
+    width: auto;
+    background: #1d1e21;
+    color: #555;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 46px;
+    cursor: pointer;
+    margin: 0 4px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+  }
+
+  input[type='checkbox'] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+  }
+
+  input[type='checkbox']:checked ~ body {
+    background-color: #000000;
+  }
+
+  @keyframes glow {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+
+  /* END Disco */
