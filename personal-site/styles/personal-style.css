@@ -433,12 +433,12 @@ footer {
     text-align: center;
   }
   
-  .title {
+.title {
     color: grey;
     font-size: 18px;
   }
   
-  .button-sad {
+.button-sad {
     border: none;
     outline: 0;
     display: inline-block;
@@ -451,12 +451,12 @@ footer {
     font-size: 18px;
   }
   
-  .sadboi-link{
+.sadboi-link{
     text-decoration: none;
     font-size: 22px;
     color: black;
   }
   
-  .button-sad:hover, a:hover {
+.button-sad:hover, a:hover {
     opacity: 0.7;
   }
