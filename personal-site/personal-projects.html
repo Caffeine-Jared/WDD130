@@ -5,150 +5,154 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Home Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/styles/personal-style.css">
+        <link rel="stylesheet" href="styles/personal-style.css">
     </head>
     <body>
         <div class="personal-content">
             <header>
-                <nav>
-                    <a id="logo_link" href="index.html">
-                        <img class="logo" src="images/JL-logos_black.png" alt="JL logo" style="width: 100px;">
-                    <a href="index.html">Home</a>
-                   <a href="personal-projects.html">Personal Projects</a> 
-                   <a href="photography.html">Photography</a>
-                </nav>
-            </header>
+                <div class="div1">
+                     <img class="logo" src="images/JL-logo.png" alt="JL logo" style="height: 100%;">
+                </div>
+                <div class="div2">
+                    <a href="index.html" class="nav-head-home">Home</a>
+                </div>
+                <div class="div3">
+                    <a href="personal-projects.html" class="nav-head-projects">Personal Projects</a> 
+                </div>
+               <div class="div4">
+                <a href="photography.html" class="nav-head-photography">Photography</a>
+               </div>
+        </header>
             <main class="main-content">
-                <div class="content-personal">
-                <h4>
-                    Content for personal project/Cloud page (note: I'm working on a personal project which I'm in the middle of writing up about, and need more time for that content. Hopefully that's fine!):
-                </h4>
-                <h4>Intro - </h4>
-                <p>When it comes to learning all things about the cloud, don't take a linear approach to learning. You probably have a decent understanding of certain topics from classes or personal study, feel free to skip around and focus on the topics you still need to learn. A great way to gauge current understanding is by jumping into practice exams. Even if you're completely new, taking a practice exam will introduce you to keywords, topics, and allow you to familiarize yourself with the exam. 
+                <div class="content-personal-aws">
+                    <div class="aws-content-stuff">
+                        
+                        <h1>Intro to Getting Started in Cloud - </h1>
+                        <p>When it comes to learning all things about the cloud, don't take a linear approach to learning. You probably have a decent understanding of certain topics from classes or personal study, feel free to skip around and focus on the topics you still need to learn. A great way to gauge current understanding is by jumping into practice exams. Even if you're completely new, taking a practice exam will introduce you to keywords, topics, and allow you to familiarize yourself with the exam. 
+                            <br>
+                            <br>
+                            For example, if you want to take the AWS Cloud Practitioner exam, take the official practice test or one from TutorialsDojo.
+                        </p>
+                        <h1>Beginner Certifications:</h1> 
+                        <dl>
+                            <dt>Cloud Practitioner/Azure Fundamentals</dt>
+                            <dd>- I’d start with one of these. AWS preferably, since it’s pretty much the industry standard.</dd>
+                            <dd>- https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf</dd>
+                            <dd>- https://tutorialsdojo.com/aws-certified-cloud-practitioner/</dd>
+                            <dd>- Don’t be overwhelmed by the sheer number of services, all you need to do is go through the AWS docs and pretty much read the first page of each service mentioned in the exam guide - ex. In AWS S3 Docs, just that first page gives you enough background for the test</dd>
+                        </dl>
+                        
+                        <h1>Associate Certifications:</h1>
+                        <dl>
+                        <dt> AWS/OCI/Azure/Google </dt>
+                            <dd>- Each associate-level has different focuses, each flavor of cloud has its own specialty, from microservice architecture (Google cloud) to databases (OCI). Getting multiple associate-level certs from different cloud providers is a great resume builder, and gives you a great understanding of multi-cloud architectures. </dd>
+                            <dd>- 28 - 75 hours of study required</dd>
+                            <dd>- 1-2 weeks is possible, but that’s only if you really dedicate yourself, not worth it.</dd>
+                            <dd>- There are many different associate-level exams offered by different cloud providers, which means you can tailor your own expertise or career path (no other field does this quite like tech)</dd>
+                            <dd>- Aim for a certificate a semester - that way when you hit the job/intern market you already have more experience than 90% of the students in BYU-I</dd>
+                        </dl>
+                    
+                        <h4>Professional Certifications:</h4>
+                    <ul>
+                        <li>Professional-level certifications once you find a cloud provider that you are comfortable/confident in</li>
+                        <li>Requires a in-depth understanding of the entire cloud service library (especially when it comes to AWS)</li>   
+                    </ul>
+                    <h1>Resources to use:</h1>
+                    <ul>
+                        <li>TutorialsDojo - for practice exams</li>
+                        <li class="indent">The rule of thumb is typically aim for 90% on each practice test you take before the actual exam</li>
+                        <li>ACloudGuru - great courses for each cloud provider, but not really in-depth</li>
+                        <li class="indent">Will get you to pass the test, but not have a good understanding of hands-on</li>
+                        <li>Learn.cantrill.io - never really used this guy’s stuff, but from what I understand, it’s lab-based, and more hands-on</li>
+                    </ul>
+                    
+                    <h5 class="indent">Reddit</h5>  
+                    <ul>
+                        <li>r/AWScertifications</li>
+                        <li>r/AWS</li>
+                        <li>r/AZURE</li>
+                        <li>r/googlecloud</li>
+                        <li>r/homelab</li>
+                        <li>r/unixporn</li>
+                        <li>r/sysadmin</li>
+                        <li>r/networking</li>
+                    </ul>
+                    
+                    <h1>Tips:</h1>
+                    <ul>
+                        <li>IMPORTANT: When you make cloud accounts - SECURE THE HECK out of them. MFA, super long passwords, separate your root account and the account you do labs on, place billing alerts, etc. People WILL try to break into your account and use your account to mine crypto or use resources on your tab. 
+                        In fact, if you’re not using a password manager like Bitwarden, and MFA security keys like Yubikey, you gotta learn that stuff first. </li>
+                        <li>Take lots of notes - notes on notes even</li>
+                        <li>For me personally, I prefer using Obsidian since you can link notes and create a “second brain” of sorts and allows me to go back to old notes and link them to my current understanding</li>
+                        <li>Practice exams are cheap, real tests are not - even if you pay 20$ for each practice exam, it’s worth it</li>
+                        <li>OCI is giving away free training and certifications right now - but the OCI platform is really new, and kinda crappy</li>
+                        <li>Play around with cloud as much as possible - and use the free credits they give you as much as you can</li>
+                        <li>Build websites, repositories, store images/videos in their storage tiers, etc</li>
+                        <li>The more you familiarize yourself with the platforms the easier it is to take the exam</li>
+                        <li>Get used to Linux - if you need a VMware key, the school provides one
+                            <li>I’d start with either Ubuntu, or Fedora.
+                            <li>Getting used to Fedora can eventually lead to you getting the RHCSA, which is the mother of all Linux certs. </li>
+                            </li>
+                        </li>
+                        <li>You can optionally just skip straight to RHEL, which is an enterprise linux used in cloud, and on-prem. But you have to register with Red Hat to get a free developer key. </li>
+                        <li>Don’t be afraid to break your machines, that’s half the fun in learning Linux</li>
+                        <li>Once you pass an exam, they give you 50% off the next one - making it really affordable (at least since the last time I took AWS exams)</li>
+                        </ul> 
                     <br>
-                    <br>
-                    For example, if you want to take the AWS Cloud Practitioner exam, take the official practice test or one from TutorialsDojo.
-                </p>
-                <h4>Beginner Certifications:</h4> 
-                <dl>
-                    <dt>Cloud Practitioner/Azure Fundamentals</dt>
-                    <dd>- I’d start with one of these. AWS preferably, since it’s pretty much the industry standard.</dd>
-                    <dd>- https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf</dd>
-                    <dd>- https://tutorialsdojo.com/aws-certified-cloud-practitioner/</dd>
-                    <dd>- Don’t be overwhelmed by the sheer number of services, all you need to do is go through the AWS docs and pretty much read the first page of each service mentioned in the exam guide - ex. In AWS S3 Docs, just that first page gives you enough background for the test</dd>
-                </dl>
-                <h4>Associate Certifications:</h4>
-                <dl>
-                <dt> AWS/OCI/Azure/Google </dt>
-                    <dd>- Each associate-level has different focuses, each flavor of cloud has its own specialty, from microservice architecture (Google cloud) to databases (OCI). Getting multiple associate-level certs from different cloud providers is a great resume builder, and gives you a great understanding of multi-cloud architectures. </dd>
-                    <dd>- 28 - 75 hours of study required</dd>
-                    <dd>- 1-2 weeks is possible, but that’s only if you really dedicate yourself, not worth it.</dd>
-                    <dd>- There are many different associate-level exams offered by different cloud providers, which means you can tailor your own expertise or career path (no other field does this quite like tech)</dd>
-                    <dd>- Aim for a certificate a semester - that way when you hit the job/intern market you already have more experience than 90% of the students in BYU-I</dd>
-                </dl>
-            <h4>Professional Certifications:</h4>
-            <ul>
-                <li>Professional-level certifications once you find a cloud provider that you are comfortable/confident in</li>
-                <li>Requires a in-depth understanding of the entire cloud service library (especially when it comes to AWS)</li>   
-            </ul>
-            <h4>Resources to use:</h4>
-            <ul>
-                <li>TutorialsDojo - for practice exams</li>
-                <li class="indent">The rule of thumb is typically aim for 90% on each practice test you take before the actual exam</li>
-                <li>ACloudGuru - great courses for each cloud provider, but not really in-depth</li>
-                <li class="indent">Will get you to pass the test, but not have a good understanding of hands-on</li>
-                <li>Learn.cantrill.io - never really used this guy’s stuff, but from what I understand, it’s lab-based, and more hands-on</li>
-            </ul>
-            <h5 class="indent">Reddit</h5>  
-            <ul>
-                <li>r/AWScertifications</li>
-                <li>r/AWS</li>
-                <li>r/AZURE</li>
-                <li>r/googlecloud</li>
-                <li>r/homelab</li>
-                <li>r/unixporn</li>
-                <li>r/sysadmin</li>
-                <li>r/networking</li>
-            </ul>
-            <h4>Tips:</h4>
-            <ul>
-                <li>IMPORTANT: When you make cloud accounts - SECURE THE HECK out of them. MFA, super long passwords, separate your root account and the account you do labs on, place billing alerts, etc. People WILL try to break into your account and use your account to mine crypto or use resources on your tab. 
-                In fact, if you’re not using a password manager like Bitwarden, and MFA security keys like Yubikey, you gotta learn that stuff first. </li>
-                <li>Take lots of notes - notes on notes even</li>
-                <li>For me personally, I prefer using Obsidian since you can link notes and create a “second brain” of sorts and allows me to go back to old notes and link them to my current understanding</li>
-                <li>Practice exams are cheap, real tests are not - even if you pay 20$ for each practice exam, it’s worth it</li>
-                <li>OCI is giving away free training and certifications right now - but the OCI platform is really new, and kinda crappy</li>
-                <li>Play around with cloud as much as possible - and use the free credits they give you as much as you can</li>
-                <li>Build websites, repositories, store images/videos in their storage tiers, etc</li>
-                <li>The more you familiarize yourself with the platforms the easier it is to take the exam</li>
-                <li>Get used to Linux - if you need a VMware key, the school provides one
-                    <li>I’d start with either Ubuntu, or Fedora.
-                    <li>Getting used to Fedora can eventually lead to you getting the RHCSA, which is the mother of all Linux certs. </li>
-                    </li>
-                </li>
-                <li>You can optionally just skip straight to RHEL, which is an enterprise linux used in cloud, and on-prem. But you have to register with Red Hat to get a free developer key. </li>
-                <li>Don’t be afraid to break your machines, that’s half the fun in learning Linux</li>
-                <li>Once you pass an exam, they give you 50% off the next one - making it really affordable (at least since the last time I took AWS exams)</li>
-                </ul> 
-            <br>
-                <p>Overall, all this might seem overwhelming at first. But get started by doing small things at first and gaining background knowledge. It’s important to remember Gall’s Law: “A complex system that works is invariably found to have evolved from a simple system that worked.” Learning about cloud architecture and systems starts with the simple stuff, and you build on more and more complexity the more experience you get.</p>
-            <h4>Questions</h4>
-            <p>Why will people come to your site?</p>
-            <p>I believe that people will come to my site for insight about getting started with cloud certifications. I want to be able to give as much information, and as many tips as possible. That way beginners will be able understand
-                cloud certifications better. Additionally, when it comes to cloud, 
-                I want to be able to show off certain projects I've done and how I accomplished them. 
-                While I'm still unsure about the photography page, 
-                I want to be sure that I can post about my personal projects and make a blog that makes it easy for 
-                beginners to start off with learning all things cloud! 
-            </p>
+                        <p>Overall, all this might seem overwhelming at first. But get started by doing small things at first and gaining background knowledge. It’s important to remember Gall’s Law: “A complex system that works is invariably found to have evolved from a simple system that worked.” Learning about cloud architecture and systems starts with the simple stuff, and you build on more and more complexity the more experience you get.</p>
+                    
+                        <h1>Questions</h1>
+                    <p>Why will people come to your site?</p>
+                    <p>I believe that people will come to my site for insight about getting started with cloud certifications. I want to be able to give as much information, and as many tips as possible. That way beginners will be able understand
+                        cloud certifications better. Additionally, when it comes to cloud, 
+                        I want to be able to show off certain projects I've done and how I accomplished them. 
+                        While I'm still unsure about the photography page, 
+                        I want to be sure that I can post about my personal projects and make a blog that makes it easy for 
+                        beginners to start off with learning all things cloud! 
+                    </p>
+                </div>
             </div>
-                    <div class="linux">
-                        <h5>Linux: Ricing Made Simple</h5>
-                        <p> Linux Ricing is when you change certain aspects of the linux desktop experience to your liking. Getting started with 
-                            Ricing can help you learn the basics about linux desktop environments, how to use them effectively, and be able to change them to your liking. 
-                        </p>
-                        <h5>Desktop Environments</h5>
-                        <p>
-                            The first step of ricing is picking your desktop environment, choosing wisely is important, as the desktop environment can make a huge impact on the 
-                            type of changes that you're able to make on your system. Typically, I prefer the GNOME desktop environment since it's a very customizable, and easy to use desktop. 
-                            However, there are many different choices including, XFCE, KDE Plasma, LXDE, LXQT, Budgie, and others. It's also important to point out that you can change 
-                            desktop environments whenever you want, to either experiment or play around with later. 
-                            <img src="images/Gnomelogo-footprint.svg" alt="gnome" style="width: 200px;">
-                        </p>
-                        <h5>Program Launchers, Terminal Emulators, & Shells</h5>
-                        <p>
-                            After choosing your desktop environment, you'll want to add features to your desktop and system that will provide 
-                            value and enhance your workflow. The best way to achieve this, is through program launchers like Rofi, terminal emulators like Kitty, and 
-                            extensions like those found through Gnome Extensions to add desktop elements. There are many different options out there, and the best advice I
-                            can give is to simply try and experiment with the countless extensions and applications out there until you find the best one to fit your 
-                            needs.
-                            <img src="images/rofi.png" alt="rofi">
-                        </p>
-                        <h5>Themes</h5>
-                        <p>Once you get to the point of figuring out your workflow, and the applications that fit your needs, you'll want to find a theme that fits
-                            your tastes. Once of the best places to find themes or ideas to create your own themes is through either Gnome Look or r/unixporn. 
-                            <img src="images/gnome-desktop.png" alt="gnome-desktop">
-                            For example, in the image, the theme used is a GTK3 flat remix teal dark solid.
-                        </p>
-                    </div>  
+            <div class="linux-sub">
+                <h1 class="linux-title-sub">Linux: Ricing Made Simple</h1>
+                <p class="linux-content1-sub"> Linux Ricing is when you change certain aspects of the linux desktop experience to your liking. Getting started with 
+                    Ricing can help you learn the basics about linux desktop environments, how to use them effectively, and be able to change them to your liking. 
+                </p>
+
+                <h1 class="linux-title2-sub">>Desktop Environments</h5>
+                <p class="linux-content2">
+                    The first step of ricing is picking your desktop environment, choosing wisely is important, as the desktop environment can make a huge impact on the 
+                    type of changes that you're able to make on your system. Typically, I prefer the GNOME desktop environment since it's a very customizable, and easy to use desktop. 
+                    However, there are many different choices including, XFCE, KDE Plasma, LXDE, LXQT, Budgie, and others. It's also important to point out that you can change 
+                    desktop environments whenever you want, to either experiment or play around with later. 
+                </p>
+                <img src="images/Gnomelogo-footprint.svg" alt="gnome" class="linux-image3">
+                <h1 class="linux-title3-sub">Program Launchers, Terminal Emulators, & Shells</h1>
+                <p class="linux-content3">
+                    After choosing your desktop environment, you'll want to add features to your desktop and system that will provide 
+                    value and enhance your workflow. The best way to achieve this, is through program launchers like Rofi, terminal emulators like Kitty, and 
+                    extensions like those found through Gnome Extensions to add desktop elements. There are many different options out there, and the best advice I
+                    can give is to simply try and experiment with the countless extensions and applications out there until you find the best one to fit your 
+                    needs.
+                </p>
+                <img src="images/rofi.png" alt="rofi"  class="linux-image2">
+                <h1 class="linux-title4-sub">Themes</h1>
+                <p class="linux-content4-sub">Once you get to the point of figuring out your workflow, and the applications that fit your needs, you'll want to find a theme that fits
+                    your tastes. Once of the best places to find themes or ideas to create your own themes is through either Gnome Look or r/unixporn. 
+                    For example, in the image, the theme used is a GTK3 flat remix teal dark solid.
+                </p>
+
+                <img src="images/gnome-desktop.png" alt="gnome-desktop" class="linux-image1-image">
+                
+            </div>  
                 </div>
             </main>
             <footer>
-                <h3>&copy; 2022 - Jared Linares</h3>
-                <h3><a href="index.html">Home</a></h3>
-                <h3><a href="personal-projects.html">Personal Projects</a></h3>
-                <h3><a href="photography.html">Photography</a></h3>
-                <h3><a href="site-plan.html">Site Plan</a></h3>
-                <div class="social">
-                    <a href="https://facebook.com" target="_blank">
-                        <img src="images/facebook.png" alt="fb icon">
-                    </a>
-                    <a href="https://twitter.com" target="_blank">
-                        <img src="images/twitter.png" alt="twitter icon">
-                    </a>
-                    <a href="https://instagram.com" target="_blank">
-                        <img src="images/instagram.png" alt="instagram icon">
-                    </a>
+                <h3 class="footer-copyright">&copy; 2022 - Jared Linares</h3>
+                <div class="navigation">
+                    <a href="index.html">Home</a>
+                    <a href="personal-projects.html">Personal Projects</a>
+                    <a href="photography.html">Photography</a>
+                    <a href="site-plan.html">Site Plan</a>
                 </div>
             </footer>
         </div>
