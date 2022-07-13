@@ -494,9 +494,17 @@ footer {
 
 .linux-image3 {
     grid-area: 6 / 3 / 7 / 4; 
-    width: 10%;
+    height: 100%;
     margin: auto;
     display: block;
+    transition: transform .5s;
+    border: 3px solid#000000;
+    border-radius: 10px 10px ;
+    box-shadow: 10px 10px black;
+}
+
+.linux-image3:hover {
+    transform: scale(1.1);
 }
 
 .linux-title3-sub {
@@ -509,10 +517,17 @@ footer {
 
 .linux-image2 {
     grid-area: 9 / 3 / 10 / 4;
-    width: 10%;
+    height: 100%;
    justify-content: center;
    margin: auto;
    display: block;
+   transition: transform .5s;
+   border: 3px solid#000000;
+   border-radius: 10px 10px ;
+   box-shadow: 10px 10px black;
+}
+.linux-image2:hover {
+    transform: scale(1.1);
 }
 
 .linux-title4-sub {
@@ -525,10 +540,18 @@ footer {
 
 .linux-image1-image {
     grid-area: 12 / 3 / 13 / 4;
-    width: 10%;
+    height: 100%;
     margin: auto;
     display: block;
+    transition: transform .5s;
+    border: 3px solid#000000;
+    border-radius: 10px 10px ;
+    box-shadow: 10px 10px black;
 
+}
+
+.linux-image1-image:hover{
+    transform: scale(1.1);
 }
 
 .content-personal-aws {
