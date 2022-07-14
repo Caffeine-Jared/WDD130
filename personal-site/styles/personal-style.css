@@ -568,3 +568,349 @@ footer {
 }
 
 .aws-content-stuff { grid-area: 2 / 3 / 5 / 4; }
+
+/* rocks start */
+.rocks {
+    background-color: #F4EDEA;
+    background-color: #F4EDEA;
+    display: grid;
+    grid-template-columns: 20px 1fr 20px repeat(2, 1fr) 20px;
+    grid-template-rows: 20px 50px 20px 1fr 20px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: 3px solid#000000;
+    box-shadow: 10px 10px black;
+    border-radius: 10px 10px ;
+    margin-bottom: 60px;
+}
+
+.rocks-photo {
+    grid-area: 2 / 2 / 5 / 3; 
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    transition: transform .5s;
+    border: 3px solid#000000;
+    border-radius: 10px 10px ;
+    box-shadow: 10px 10px black;
+}
+
+.rocks-photo:hover {
+    transform: scale(2.1);
+}
+
+.rocks-title {
+    grid-area: 2 / 4 / 3 / 6; 
+    text-align: center;
+}
+
+.rocks-content {
+    grid-area: 4 / 4 / 5 / 6; 
+    font-size: 20px;
+}
+/* Rocks END */
+
+/* Morning START */
+.morning {
+    background-color: #F4EDEA;
+    background-color: #F4EDEA;
+    display: grid;
+    grid-template-columns: 20px 1fr 20px repeat(2, 1fr) 20px;
+    grid-template-rows: 20px 50px 20px 1fr 20px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: 3px solid#000000;
+    box-shadow: 10px 10px black;
+    border-radius: 10px 10px ;
+    margin-bottom: 60px;
+}
+
+.morning-title {
+    grid-area: 2 / 4 / 3 / 6; 
+    text-align: center;
+}
+
+.morning-photo {
+    grid-area: 2 / 2 / 5 / 3; 
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    transition: transform .5s;
+    border: 3px solid#000000;
+    border-radius: 10px 10px ;
+    box-shadow: 10px 10px black;
+
+}
+
+.morning-photo:hover {
+    transform: scale(2.1);
+}
+
+.morning-content {
+    grid-area: 4 / 4 / 5 / 6; 
+    font-size: 20px;
+}
+
+/* Morning END */
+
+/* Birds START */
+.birds {
+    background-color: #F4EDEA;
+    background-color: #F4EDEA;
+    display: grid;
+    grid-template-columns: 20px 1fr 20px repeat(2, 1fr) 20px;
+    grid-template-rows: 20px 50px 20px 1fr 20px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: 3px solid#000000;
+    box-shadow: 10px 10px black;
+    border-radius: 10px 10px ;
+    margin-bottom: 60px;
+}
+
+.birds-title {
+    grid-area: 2 / 4 / 3 / 6; 
+    text-align: center;
+}
+
+.birds-photo {
+    grid-area: 2 / 2 / 5 / 3; 
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    transition: transform .5s;
+    border: 3px solid#000000;
+    border-radius: 10px 10px ;
+    box-shadow: 10px 10px black;
+}
+
+.birds-photo:hover {
+    transform: scale(2.1);
+}
+
+.birds-content {
+    grid-area: 4 / 4 / 5 / 6; 
+    font-size: 20px;
+}
+
+/* Birds END */
+
+/* Boat START */
+.boat {
+    background-color: #F4EDEA;
+    background-color: #F4EDEA;
+    display: grid;
+    grid-template-columns: 20px 1fr 20px repeat(2, 1fr) 20px;
+    grid-template-rows: 20px 50px 20px 1fr 20px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: 3px solid#000000;
+    box-shadow: 10px 10px black;
+    border-radius: 10px 10px ;
+    margin-bottom: 60px;
+}
+
+.boat-title {
+    grid-area: 2 / 4 / 3 / 6; 
+    text-align: center;
+}
+
+
+.boat-photo {
+    grid-area: 2 / 2 / 5 / 3; 
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    transition: transform .5s;
+    border: 3px solid#000000;
+    border-radius: 10px 10px ;
+    box-shadow: 10px 10px black;
+}
+
+.boat-photo:hover {
+    transform: scale(2.1);
+}
+
+.boat-content {
+    grid-area: 4 / 4 / 5 / 6; 
+    font-size: 20px;
+}
+
+/* Boat END */
+
+/* lighthouse START */
+.lighthouse-photography {
+    background-color: #F4EDEA;
+    background-color: #F4EDEA;
+    display: grid;
+    grid-template-columns: 20px 1fr 20px repeat(2, 1fr) 20px;
+    grid-template-rows: 20px 50px 20px 1fr 20px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: 3px solid#000000;
+    box-shadow: 10px 10px black;
+    border-radius: 10px 10px ;
+    margin-bottom: 60px;
+}
+
+.lighthousephoto-title {
+    grid-area: 2 / 4 / 3 / 6; 
+    text-align: center;
+}
+
+.lighthouse-photo {
+    grid-area: 2 / 2 / 5 / 3; 
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    transition: transform .5s;
+    border: 3px solid#000000;
+    border-radius: 10px 10px ;
+    box-shadow: 10px 10px black;
+}
+
+.lighthouse-photo:hover {
+    transform: scale(2.1);
+}
+
+.lighthousephoto-content {
+    grid-area: 4 / 4 / 5 / 6; 
+    font-size: 20px;
+}
+/* lighthouse END */
+
+/* NYC START */
+.NYC-div {
+    background-color: #F4EDEA;
+    background-color: #F4EDEA;
+    display: grid;
+    grid-template-columns: 20px 1fr 20px repeat(2, 1fr) 20px;
+    grid-template-rows: 20px 50px 20px 1fr 20px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: 3px solid#000000;
+    box-shadow: 10px 10px black;
+    border-radius: 10px 10px ;
+    margin-bottom: 60px;
+}
+
+.NYCphoto-title {
+    grid-area: 2 / 4 / 3 / 6; 
+    text-align: center;
+}
+
+.nyc-photo {
+    grid-area: 2 / 2 / 5 / 3; 
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    transition: transform .5s;
+    border: 3px solid#000000;
+    border-radius: 10px 10px ;
+    box-shadow: 10px 10px black;
+}
+
+.nyc-photo:hover {
+    transform: scale(2.1);
+}
+
+.nyc-content {
+    grid-area: 4 / 4 / 5 / 6; 
+    font-size: 20px;
+}
+/* NYC END */
+
+/* NYC2 START */ 
+.NYC2 {
+    background-color: #F4EDEA;
+    background-color: #F4EDEA;
+    display: grid;
+    grid-template-columns: 20px 1fr 20px repeat(2, 1fr) 20px;
+    grid-template-rows: 20px 50px 20px 1fr 20px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: 3px solid#000000;
+    box-shadow: 10px 10px black;
+    border-radius: 10px 10px ;
+    margin-bottom: 60px;
+}
+
+.NYC2-title {
+    grid-area: 2 / 4 / 3 / 6; 
+    text-align: center;
+}
+
+.NYC2-photo {
+    grid-area: 2 / 2 / 5 / 3; 
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    transition: transform .5s;
+    border: 3px solid#000000;
+    border-radius: 10px 10px ;
+    box-shadow: 10px 10px black;
+}
+
+.NYC2-photo:hover {
+    transform: scale(2.1);
+}
+
+.NYC2-content {
+    grid-area: 4 / 4 / 5 / 6; 
+    font-size: 20px;
+}
+/* NYC2 END */
+
+/* Woo START */
+.woo {
+    background-color: #F4EDEA;
+    background-color: #F4EDEA;
+    display: grid;
+    grid-template-columns: 20px 1fr 20px repeat(2, 1fr) 20px;
+    grid-template-rows: 20px 50px 20px 1fr 20px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: 3px solid#000000;
+    box-shadow: 10px 10px black;
+    border-radius: 10px 10px ;
+    margin-bottom: 60px;
+}
+
+.woo-title {
+    grid-area: 2 / 4 / 3 / 6; 
+    text-align: center;
+}
+
+.woo-photo {
+    grid-area: 2 / 2 / 5 / 3; 
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    transition: transform .5s;
+    border: 3px solid#000000;
+    border-radius: 10px 10px ;
+    box-shadow: 10px 10px black;
+}
+
+.woo-photo:hover {
+    transform: scale(2.1);
+}
+
+.woo-content {
+    grid-area: 4 / 4 / 5 / 6; 
+    font-size: 20px;
+}
+/* Woo END */
+
+.photography-title-page {
+    text-align: center;
+    padding-top: 40px;
+}
